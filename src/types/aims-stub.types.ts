@@ -11,6 +11,7 @@ export interface AIMSUser {
   id?: string;
   name: string;
   email: string;
+  linked_users: AIMSUser[];
   active?: boolean;
   locked?: boolean;
   version?: number;
